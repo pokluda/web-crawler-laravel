@@ -1,0 +1,9 @@
+@import 'bulma/css/bulma.min.css';
+
+table thead th {
+    white-space: nowrap;
+}
+
+abbr {
+    text-decoration: none;
+}
