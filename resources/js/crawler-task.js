@@ -54,7 +54,7 @@ function updateCrawlerTaskData(event)
     taskInternalLinksSumElement.textContent = event.internal_links_unique_sum;
     taskExternalLinksSumElement.textContent = event.external_links_unique_sum;
     taskImagesSumElement.textContent = event.images_unique_sum;
-    taskPageLoadDurationAvgElement.textContent = event.page_load_duration_avg;
+    taskPageLoadDurationAvgElement.textContent = event.page_load_duration_avg + 's';
     taskWordsAvgElement.textContent = event.words_avg;
     taskTitleLengthAvgElement.textContent = event.title_length_avg;
 
